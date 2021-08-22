@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" href="../../img/icon.png" type="image/x-icon">
+        <title>Online Food Recipe | FRC</title>
+        <link rel="stylesheet" href="../css/ReceipeOfTheDay.css">
+        <link rel="stylesheet" href="../../style/navbar.css">
+        <link rel="stylesheet" media="screen and (max-width: 1170px)" href="../../Home/css/phone.css">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div id="nav"></div>
+        <div class="display-4">Recipe Of The Day: </div>
+        <div class="container">
+            <img src=".." alt="..." id='img'>
+            <h1><strong id="title"></strong></h1> <br>
+            <div class="subInfo">
+                <div>Category: <span id="category"></span></div>
+                <div>Cuisine: <span id="cuisine"></span></div>
+                <div>Dish type: <span id="type"></span></div>
+            </div> <br>
+            <div class="subInfo">
+                <div>
+                    <ol> Ingredients:
+                        <li id='ingredient1'></li>
+                        <li id='ingredient2'></li>
+                        <li id='ingredient3'></li>
+                        <li id='ingredient4'></li>
+                        <li id='ingredient5'></li>
+                        <li id='ingredient6'></li>
+                        <li id='ingredient7'></li>
+                        <li id='ingredient8'></li>
+                        <li id='ingredient9'></li>
+                        <li id='ingredient10'></li>
+                    </ol>
+                </div>
+                <div>
+                    <ul> Measure:
+                        <li id='measure1'></li>
+                        <li id='measure2'></li>
+                        <li id='measure3'></li>
+                        <li id='measure4'></li>
+                        <li id='measure5'></li>
+                        <li id='measure6'></li>
+                        <li id='measure7'></li>
+                        <li id='measure8'></li>
+                        <li id='measure9'></li>
+                        <li id='measure10'></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="process"><span>Instructions: </span>
+                <p id="instructions"></p>
+            </div>
+        </div>
+    </body>
+
+</html>
+<script src="../../scripts/nav.js" type="module"></script>
+<script src="../js/ReciepeOfTheDay.js"></script>
