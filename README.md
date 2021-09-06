@@ -1,6 +1,14 @@
 # Food_Reciepe-App
 <b>A website where we can search for any recipe and find its details</b>
 
+This website is very useful for food lovers, because here we can see the latest recipe, we can see any random recipes, we can search any recipe.
+
+In the landing page, three individual divisions are there; 1st one is the short description of the site; 2nd one contains 3 buttons to go to individual pages to search or see the recipes; & 3rd one is for contact details. In the navbar, there're three buttons, which may help the user to visit those sections.
+
+I created this website for one of my regular assignments. I used TheMealDB API to search recipes. I used Bootstrap 5.1 to beautify my site. This site made by HTML, CSS & JavaScript languages.
+
+I inspired by MasaiSchool & CodeWithHarry to create this website.
+
 ### This Site have 4 pages (including landing page), 
 <ol>
   
