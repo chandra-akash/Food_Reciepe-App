@@ -6,9 +6,9 @@ function navbar ()
      <nav id="navbar">
             
             <ul>
-                <li class="item"><a href="../../Home/html/home.html#home">Home</a></li>
-                <li class="item"><a href="../../Home/html/home.html#services-container">Services</a></li>
-                <li class="item"><a href="../../Home/html/home.html#contact">Contact Us</a></li>
+                <li class="item"><a href="../../index.html#home">Home</a></li>
+                <li class="item"><a href="../../index.html#services-container">Services</a></li>
+                <li class="item"><a href="../../index.html#contact">Contact Us</a></li>
             </ul>
         </nav>`
 }

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" href="./img/icon.png" type="image/x-icon">
+        <title>Online Food Recipe | FRC</title>
+        <link rel="stylesheet" href="./Home/css/home.css">
+        <link rel="stylesheet" href="./style/navbar.css">
+        <link rel="stylesheet" media="screen and (max-width: 1170px)" href="./Home/css/phone.css">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="nav"></div>
+
+        <section id="home">
+            <h1 class="h-primary">Welcome to FRC</h1>
+            <h2>Food Recipe Center </h2>
+            <p>Read Recipe, Make It and Enjoy </p>
+        </section>
+
+        <section id="services-container">
+            <h1 class="h-primary center">Our Services</h1>
+            <div id="services">
+                <div class="box">
+                    <img src="https://i.pinimg.com/originals/71/d8/64/71d864732fa84319370f72028dc8a49b.gif" alt="">
+                    <h2 class="h-secondary center">Search Receipe by Name</h2>
+                    <p class="center">Search any recipe you want by it's proper name. <br>
+                        Tap to the below button, & go to another page to search reciepes.</p> <br>
+                    <a href="./SearchReciepe/html/SearchReceipe.html" class="clickMe">Click me</a>
+                </div>
+                <div class="box">
+                    <img src="https://i.pinimg.com/originals/96/ee/3c/96ee3cbd0c0470c700fd9f1ee3104797.gif" alt="">
+                    <h2 class="h-secondary center">Receipe of the Day</h2>
+                    <p class="center">Tap to the below button to watch today's "Receipe of the Day" in details.</p>
+                    <br>
+                    <a href="./ReciepeOfTheDay/html/ReceipeOfTheDay.html" class="clickMe">Click me</a>
+                </div>
+                <div class="box">
+                    <img src="https://blog.mindfulchef.com/wp-content/uploads/2019/11/NEW-Family.gif" alt="">
+                    <h2 class="h-secondary center">Latest Receipe</h2>
+                    <p class="center">Tap to the below button to watch Latest Receipe in details.</p> <br>
+                    <a href="./LatestReciepe/html/LatestReceipe.html" class="clickMe">Click me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="h-primary center">Contact Us</h1>
+            <div id="contact-box">
+                <form action="">
+                    <div class="form-group">
+                        <label for="email">Email: </label>
+                        <label for="email"
+                            onclick="parent.open('https://mail.google.com/mail/?view=cm&fs=1&to=akash_fw10_059@masai.school&su=SUBJECT&body=BODY&bcc=chandra.akash020@gmail.com')">akash_fw10_059@masai.school</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number: </label>
+                        <label for="phone" onclick="location.href='tel:+91-863-704-1021'">8637041021</label>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="center">
+                If more of us valued food and cheer and song above hoarded gold, it would be a merrier world.
+            </div>
+        </footer>
+    </body>
+
+</html>
+<script src="./scripts/nav.js" type="module"></script>
